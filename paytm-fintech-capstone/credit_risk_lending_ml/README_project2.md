@@ -28,6 +28,8 @@ The datasets were generated using the provided deterministic data-generation pro
 - Transactions: **265**
 - Seeded `BTXNA*` anomalies: **15**
 
+DATA GENERATED IS STORED IN "generate_data"
+
 ---
 
 ## 3. Part A — EDA & Preprocessing
