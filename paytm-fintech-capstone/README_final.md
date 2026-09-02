@@ -4,8 +4,6 @@
 
 **Student Name:** Bonthu Roshan Jaisimha\
 **Student ID:** bitsom_ftai_2601087\
-**Public GitHub Repository:** *(add the final public GitHub repository
-link here)*
 
 ------------------------------------------------------------------------
 
@@ -539,63 +537,6 @@ non-text artifacts.
 The project does not require screenshots, presentation slides, PDFs,
 videos or audio for submission. Generated `.png` charts may be included
 as supporting artifacts.
-
-------------------------------------------------------------------------
-
-# 11. Final Pre-Submission Checklist
-
-### Repository
-
--   [ ] One public GitHub repository is used.
--   [ ] All three part folders are at the repository root.
--   [ ] Root `README.md` is present.
--   [ ] Root `requirements.txt` is present.
--   [ ] The final repository link is public.
-
-### Part 1
-
--   [ ] Required datasets are present or reproducible.
--   [ ] Excel workbook is committed as `.xlsx`.
--   [ ] SQL notebook is present.
--   [ ] Python reconciliation notebook/script is present.
--   [ ] Dashboard notebook is present.
--   [ ] Required chart images are included where applicable.
--   [ ] Required written interpretations are present.
-
-### Part 2
-
--   [ ] `generate_data.py` is present.
--   [ ] Required CSV datasets are present or reproducible.
--   [ ] Thin-file handling follows the required order.
--   [ ] Training-only preprocessing is used.
--   [ ] Train/test split uses the required random state.
--   [ ] Both classifiers use the identical split.
--   [ ] Evaluation metrics are reported.
--   [ ] Risk-pricing table is present.
--   [ ] Isolation Forest recall is reported.
--   [ ] Bias-awareness note is included.
--   [ ] Final model comparison and recommendation are included.
--   [ ] `roc_curve_comparison.png` is included if generated.
-
-### Part 3
-
--   [ ] All required Python modules are present.
--   [ ] DCF calculator is present.
--   [ ] Blockchain risk note is present.
--   [ ] Required DCF sensitivity table is present.
--   [ ] EV/EBITDA cross-check is present.
--   [ ] Required advisory/disclosure/debate workflows run in mock mode.
--   [ ] Required written interpretations are present.
-
-### General
-
--   [ ] All monetary figures are in INR.
--   [ ] No required interpretation exists only as an image.
--   [ ] No paid service is required for the submitted workflow.
--   [ ] Notebooks run from top to bottom without unexplained errors.
--   [ ] README paths match the final GitHub structure.
--   [ ] The single repository link is submitted through the LMS by the
-    deadline communicated there.
 
 ------------------------------------------------------------------------
 
