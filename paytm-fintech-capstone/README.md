@@ -71,8 +71,7 @@ paytm-fintech-capstone/
     └── ai_advisory_blockchain.ipynb
 ```
 
-> The exact file list should be kept in sync with the final files
-> committed to GitHub.
+> The committed file structure can be slightly different especially file names, due to applying final changes in the last minute.
 
 ------------------------------------------------------------------------
 
