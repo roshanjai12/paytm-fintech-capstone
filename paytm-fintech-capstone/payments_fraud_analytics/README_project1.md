@@ -197,6 +197,7 @@ The boundary is defined as:
 
 ```text
 0 <= transaction_time - signup_date < 30 days
+```
 
 ---
 
@@ -231,10 +232,11 @@ The main reusable function is:
 
 ```python
 reconcile_payments(ledger_df, gateway_df)
+```
 
 ---
 
-##14. Dashboard Overview
+## 14. Dashboard Overview
 
 The dashboard is generated using matplotlib and consists of four saved chart/image layers.
 
@@ -244,48 +246,49 @@ Each layer is saved as an image and includes a short written interpretation.
 
 ---
 
-##15. Headline Layer
+## 15. Headline Layer
 
 The headline layer displays key payment metrics such as:
 
-Total GMV
-Overall success rate
-Reconciliation match rate
-Chargeback ratio
+- Total GMV
+- Overall success rate
+- Reconciliation match rate
+- Chargeback ratio
 
 ---
 
-##16. Dashboard Design Decisions
+## 16. Dashboard Design Decisions
 
 The dashboard uses different chart types according to the type of information being communicated.
 
-Scorecards are used for high-level KPIs.
-Time-series charts are used for trends over time.
-Bar charts are used for category and payment-method comparisons.
-A saved table image is used for detailed merchant-level information.
+- Scorecards are used for high-level KPIs.
+- Time-series charts are used for trends over time.
+- Bar charts are used for category and payment-method comparisons.
+- A saved table image is used for detailed merchant-level information.
 
 The dashboard is intentionally kept simple so that the main payment and risk signals can be understood quickly.
 
 ---
 
-##17. Key Interpretations
-Payment Activity
+## 17. Key Interpretations
+
+### Payment Activity
 
 GMV and transaction activity provide an overview of the scale of payment operations and help identify the largest contributing payment methods and categories.
 
-Chargeback Risk
+### Chargeback Risk
 
 Chargeback ratios are used as risk indicators.
 
 A high ratio does not automatically prove fraud, but it can identify merchants or transaction patterns that deserve further investigation.
 
-Reconciliation
+### Reconciliation
 
 Differences between the ledger and gateway export can indicate operational or settlement issues.
 
 Reconciliation therefore acts as an important control for payment-data consistency.
 
-Fraud Patterns
+### Fraud Patterns
 
 Burner accounts and high transaction velocity provide different types of fraud signals.
 
