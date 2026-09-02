@@ -198,7 +198,7 @@ The boundary is defined as:
 ```text
 0 <= transaction_time - signup_date < 30 days
 
-
+---
 
 ## 12. Velocity Attack Detection
 
@@ -232,6 +232,7 @@ The main reusable function is:
 ```python
 reconcile_payments(ledger_df, gateway_df)
 
+---
 
 ##14. Dashboard Overview
 
@@ -240,6 +241,8 @@ The dashboard is generated using matplotlib and consists of four saved chart/ima
 The dashboard is code-generated and does not depend on a live BI tool such as Power BI or Looker Studio.
 
 Each layer is saved as an image and includes a short written interpretation.
+
+---
 
 ##15. Headline Layer
 
@@ -250,6 +253,7 @@ Overall success rate
 Reconciliation match rate
 Chargeback ratio
 
+---
 
 ##16. Dashboard Design Decisions
 
@@ -261,6 +265,8 @@ Bar charts are used for category and payment-method comparisons.
 A saved table image is used for detailed merchant-level information.
 
 The dashboard is intentionally kept simple so that the main payment and risk signals can be understood quickly.
+
+---
 
 ##17. Key Interpretations
 Payment Activity
