@@ -535,7 +535,7 @@ The project should be executed in the following order:
 
 ## 23. Submission Files
 
-The final `ai_advisory_blockchain` folder should contain:
+The final `ai_advisory_blockchain` folder contains:
 
 ```text
 stock_universe.py
